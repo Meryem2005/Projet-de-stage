@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Lunasima:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Italianno&family=Kablammo&family=Lora:ital,wght@1,500&family=Lugrasimo&family=Playfair+Display:ital@1&family=Poppins:wght@500&family=Rubik+Puddles&display=swap');
+*{
+    margin: 0%; padding: 0%;
+    font-family: 'Lunasima', sans-serif;
+    box-sizing: border-box;
+}
+/* =================== navbar ============================== */
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    padding: 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
+}
+.navbar .logo img{
+    height: 60px;
+    width: auto;
+}
+.navbar .contacts a{
+    text-decoration: none;
+}
+.navbar .contacts{
+    display: flex;
+}
+.navbar .contact{
+    margin: 0px 6px;
+    width: 160px; height: 40px;
+    background: rgb(251, 255, 0);
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+.navbar .contacts img{
+    height: 18px; width: auto;
+}
+.navbar .contact span{
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+}
+.navbar .c1{ background: #333;}
+.navbar .c2{ background: #4267B2;}
+.navbar .c3{ background: #E1306C;}
+.navbar .icon{
+    position: relative;
+    top: 4px;
+}
+/* =================== hero section ============================== */
+.heroSection{
+    width: 100%;
+    height: 100vh;
+    background: url('./assests/images/image1.png'), #204A02;
+    background-repeat: no-repeat;
+    /* background-size: 100% auto; */
+    background-size: contain;
+    background-position: right 0px top 65px;
+    padding: 0px 70px;
+}
+.heroSection h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 0.9;
+}
+.heroSection h1 .fChild{font-size: 80px;}
+.heroSection h1 .lChild{font-size: 47px;}
+.heroSection p{
+    width: 50%;
+    margin: 30px 0px;
+    font-size: 19px;
+    font-weight: 300 !important;
+    color: #fff;
+    line-height: 1.7;
+    text-align: justify;
+}
+.heroSection .position{
+    position: relative;
+    top: 140px;
+}
+.heroSection .btnInscription{
+    position: relative;
+    top: 210px;
+    border: none;
+    width: 30%;
+    height: 60px;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.heroSection .btnInscription a{
+    color: #204A02;
+}
+.heroSection .btnInscription a:hover{
+    color:#F1C11F;
+}
+/* =================== Formation Section ============================== */
+.FormationSection{
+    width: 100%;
+    max-height: 900px;
+    position: relative;
+    top: 30px;
+    padding: 0px 70px;
+}
+.FormationSection .title h2{
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Lora', serif;
+    color: #204A02;
+    margin-top: 40px;
+}
+.FormationSection .title p{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lora', serif;
+    color: #6a6a6a;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap
+}
+.card {
+    border-radius: 4px;
+    width: 290px;
+    height: 290px;
+    padding-left: 0px;
+    padding-right: 8px;
+    margin: 8px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transition: width 2s , height 2s;
+}
+.card:hover{
+    height: 340px;
+}
+.card h3{
+    font-family: 'Lora', serif;
+    padding: 7px 0px;
+    color: #204A02;
+    padding-left: 8px;
+}
+.card img{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 290px;
+    height: 170px;
+}
+.card p.description{
+    padding: 0px;
+    height: 80px;
+    font-size: 13px;
+    color: #4e4e4e;
+    padding-left: 8px;
+}
+.infos{
+    width: 100%;
+    height: 40px;
+    background: #204A02;
+    color:white;
+    font-size: 17px;
+    font-family: 'Lora', serif;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 4px;
+}
+/* =================== Statistique Section ============================== */
+.statistique{
+    padding: 0px 70px;
+    margin-top: 100px;
+}
+.Titre h2{
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Lora', serif;
+    color: #204A02;
+    margin-top: 40px;
+}
+.Titre p{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lora', serif;
+    color: #6a6a6a;
+    margin-bottom: 30px;
+}
+.contenu{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+} 
+.box{
+    border-radius: 4px;
+    width: 270px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px 0px; 
+    border: #204A02 solid 1px;
+    background-color: rgb(230, 226, 226);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.number{
+    font-size: 34px;
+    font-weight: 600;
+    color: #204A02;
+}
+.box p{
+    padding: 10px 0px;
+    font-size: 17px;
+    color: #4e4e4e;
+}
+/* =================== Formulaire ============================== */
+.formulaire{
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 490px;
+}
+.formulaire .image{
+    background: #204A02;
+}
+/* .formulaire img{
+    width: 60%;
+} */
+.formulaire .form{
+    width: 40%;
+    padding: 0px 10px;
+}
+.form h2{
+    margin: 10px;
+    text-align: center;
+    color: #204A02;
+    font-size: 30px;
+}
+.form input, .form textarea{
+    width: 100%;
+    height: 45px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border:#204A02 1px solid;
+}
+.form textarea{
+    height: 100px;
+}
+.form input[type=checkbox]{
+    height: 14px;
+    width: 5%;
+}
+.bloc1{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+.btn{
+    color: #204A02;
+    font-weight: 700;
+    font-size: 17px;
+}
+.btn:hover{
+    background-color: #204A02;
+    color: #F1C11F;
+}
+.formulaire .image img{
+    height: 410px;
+    width: auto;
+}
+/* =================== Footer ============================== */
+.footer-content{
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: #204A02;
+}
+.footer-content img{
+    width: 100px;
+    border-radius: 50%;
+}
+.footer-content p.titre{
+    font-weight: 700;
+    font-size: 17px;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.footer-content p.infos1{
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+}

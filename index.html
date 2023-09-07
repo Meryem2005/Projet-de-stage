@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Academy de langues</title>
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+    <body>
+        <!-- /Navbar -->
+        <div class="navbar">
+            <div class="logo">
+                <img src="./assests/images/logo.jpg" alt="Logo">
+            </div>
+            <div class="contacts">
+                <a href="tel:0611223344">
+                    <div class="contact c1">
+                        <span class="icon"><img src="./assests/images/phone.png" alt="phone"></span>
+                        <span>06 11 22 33 44</span>
+                    </div>
+                </a>
+                <a href="https://web.facebook.com/Hashtag.Rabat/?locale=fr_FR&_rdc=1&_rdr">
+                    <div class="contact c2">
+                        <span class="icon"><img src="./assests/images/facebook.png" alt="phone"></span>
+                        <span>Page Facebook</span>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="contact c3">
+                        <span class="icon"><img src="./assests/images/insta.png" alt="phone"></span>
+                        <span>Page Instagram</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Hero section -->
+        <div class="heroSection">
+            <div class="container">
+                <div class="position">
+                    <h1>
+                        <span class="fChild">Formez-vous </span> <br>
+                        <span class="lChild">Aux métiers de demain</span>
+                    </h1>
+    
+                    <p>Préparez-vous aux défis du marché de l'emploi de demain grâce à une 
+                        expérience d'apprentissage pratique et collaborative</p>
+                </div>
+                <p id="demo"></p>
+                <button class="btnInscription">
+                   <a href="#form" style="text-decoration: none;">Je m'inscris</a>
+                </button>
+            </div>
+        </div>
+
+        <!-- Formation Section -->
+        <div class="FormationSection">
+            <div class="title">
+                <h2>Nos Formations</h2>
+                <p>Cherchez sur la formation qui vous convient</p>
+            </div>
+
+            <div class="cards" id="formation">
+                <!-- <div class="card">
+                    <img src="./assests/images/france.jpg" alt="Drapeau France">
+                    <h3>La langue Française</h3>
+                    <p class="description">Apprenez la langue de l'amour et de la culture raffinée.</p>
+                    <div class="infos">
+                        <p class="nombreHeures">24 heures</p>
+                        <p class="price">1200 Dhs</p>
+                    </div> 
+                </div>
+                <div class="card">
+                    <img src="./assests/images/english.jpg" alt="Drapeau English">
+                    <h3>La langue Anglaise</h3>
+                    <p class="description">Explorez la langue internationale des affaires et de la communication mondiale.</p>
+                    <div class="infos">
+                        <p class="nombreHeures">24 heures</p>
+                        <p class="price">1200 Dhs</p>
+                    </div> 
+                </div>
+                <div class="card">
+                    <img src="./assests/images/espagne.jpg" alt="Drapeau Espagne">
+                    <h3>La langue Espagnole</h3>
+                    <p class="description">Plongez dans la langue passionnante de la musique, de la danse et de la diversité culturelle.</p>
+                    <div class="infos">
+                        <p class="nombreHeures">24 heures</p>
+                        <p class="price">1200 Dhs</p>
+                    </div> 
+                </div> -->
+            </div>
+            <!-- <div class="cards">
+                <div class="card">
+                    <img src="./assests/images/china.jpg" alt="Drapeau China">
+                    <h3>La langue Chinoise</h3>
+                    <p class="description">Explorez la langue internationale des affaires et de la communication mondiale.</p>
+                    <div class="infos">
+                        <p class="nombreHeures">24 heures</p>
+                        <p class="price">1200 Dhs</p>
+                    </div> 
+                </div>
+                <div class="card">
+                    <img src="./assests/images/germany.jpg" alt="Drapeau Germany">
+                    <h3>La langue Allemande</h3>
+                    <p class="description">Maîtrisez une langue riche en histoire et en innovation technologique.</p>
+                    <div class="infos">
+                        <p class="nombreHeures">24 heures</p>
+                        <p class="price">1200 Dhs</p>
+                    </div> 
+                </div>
+            </div> -->
+        </div>
+        <!-- Statistique Section  -->
+        <div class="statistique">
+            <div class="Titre">
+                <h2>Formations 100% Pratique</h2>
+                <p>Service adapté au marché de travail</p>
+            </div>
+            <div class="contenu" id="box">
+                <!-- <div class="box" id="">
+                    <div class="number">820</div>
+                    <p>Etudiants Inscrits</p>
+                </div>
+                <div class="box">
+                    <div class="number">98%</div>
+                    <p>Taux de satisfactions</p>
+                </div>
+                <div class="box">
+                    <div class="number">4+</div>
+                    <p>Ans d'Experience</p>
+                </div>
+                <div class="box">
+                    <div class="number">12</div>
+                    <p>Formations Professionnelles</p>
+                </div> -->
+            </div>
+        </div>
+        <!-- Formulaire -->
+        <div class="formulaire">
+            <div class="image">
+                <img src="./assests/images/image2.png">
+            </div>
+            <form id="form" class="form" onsubmit="send()">
+                <div class="bloc">
+                    <h2>Inscrivez vous</h2>
+                </div>
+                <div class="bloc">
+                    <input type="text" id="fullName" name="fullName" placeholder="Nom Complet" required>
+                </div>
+                <div class="bloc">
+                    <input type="text" id="telNumber" name="telNumber" placeholder="N° Téléphone" required>
+                </div>
+                <div class="bloc">
+                    <input type="text" id="adrEmail" name="adrEmail" placeholder="Adresse Email">
+                </div>
+                <div class="bloc">
+                    <textarea placeholder="Message" cols="40" rows="7" id="message"></textarea>
+                </div>
+                <div class="bloc">
+                    <input type="submit" value="Envoyer" class="btn">
+                </div>
+            </form>
+        </div>
+        <!-- footer -->
+        <footer>
+            <div class="footer-content">
+                <div>
+                    <img src="./assests/images/logo.jpg" alt="Logo">
+                </div>
+                <div>
+                    <p class="titre">Copy Right :</p>
+                    <p class="infos1">© 2023 Tous droits réservés.</p>
+                </div>
+                <div>
+                    <p class="titre">Contact :</p>
+                    <p class="infos1">06 56 30 42 90</p>
+                </div>
+                <div>
+                    <p class="titre">Adresse :</p>
+                    <p class="infos1">Avenue El Majd Amal 2, Bloc B, N° 509, CYM, Rabat</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
